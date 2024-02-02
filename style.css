@@ -1,3 +1,14 @@
+body {
+  min-height: 100auto;
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+
+footer {
+  margin-top: auto;
+}
+
+
 .hd {
     font-family: fantasy;
 }
@@ -23,9 +34,6 @@
     box-shadow: 1px 8px 20px grey;
     -webkit-transition:  box-shadow .3s ease-in;}
 
-.footer{
-    height: auto;
-}
 
 
 .custombutton {
